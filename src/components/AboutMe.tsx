@@ -3,7 +3,7 @@ import React from "react";
 import profileImage from "../assets/alwaysProf-187kb.jpg";
 const AboutMe = () => {
   return (
-    <div className="grid grid-cols-2 p-5 bg-gray-50">
+    <div className="grid grid-cols-2 p-5 bg-gray-50 pb-16">
       <div className="p-5">
         <Image alt="Md Hasan Mia" src={profileImage} className=" rounded-xl" />
         <div className="mt-5">
