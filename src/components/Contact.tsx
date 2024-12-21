@@ -3,7 +3,7 @@ import React from "react";
 import image from "../assets/HasanwithLaptop.jpg";
 const Contact = () => {
   return (
-    <div className="grid grid-cols-2 items-center py-16 px-5">
+    <div className="grid grid-cols-2 items-center py-16 px-5 bg-gray-50">
       <div className="">
         <h1 className="text-4xl font-bold">Get In Touch</h1>
         <div className="h-32 border-l-2 border-black my-10"></div>
