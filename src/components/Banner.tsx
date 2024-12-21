@@ -3,8 +3,8 @@ import React from "react";
 import profileImage from "../assets/logo-image-560.png";
 const Banner = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center border-red-500 border-2">
-      <div className="grid grid-cols-2 border-red-400 p-5  max-w-screen-2xl">
+    <div className="h-screen flex flex-col justify-center items-center ">
+      <div className="grid grid-cols-2 p-5  max-w-screen-2xl">
         <div>
           <div>
             <Image
