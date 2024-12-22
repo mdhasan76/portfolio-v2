@@ -17,7 +17,7 @@ const portfolioJsonData = [
     img: erp,
     appLink:
       "https://play.google.com/store/apps/details?id=com.mindquest.shukran_store",
-    siteLink: "https://mobilly76.web.app/",
+    siteLink: "https://shukran-os-v1.web.app/",
   },
   {
     id: 2,
@@ -25,23 +25,8 @@ const portfolioJsonData = [
     version: ["App"],
     text: "A Grocery and Rice Selling E-commerce App",
     img: shukranStore,
-    siteLink: "https://mobilly76.web.app/",
-  },
-  {
-    id: 3,
-    name: "MobileLy",
-    version: ["Web"],
-    text: "Second-hand Phone Selling E-commerce site",
-    img: mobile,
-    siteLink: "https://mobilly76.web.app/",
-  },
-  {
-    id: 4,
-    name: "Safe Edu",
-    version: ["Web"],
-    text: "Course Selling Site",
-    img: education,
-    siteLink: "https://safe-edu1.web.app/",
+    appLink:
+      "https://play.google.com/store/apps/details?id=com.mindquest.shukran_store",
   },
   {
     id: 5,
@@ -58,6 +43,22 @@ const portfolioJsonData = [
     text: "Make Invoice Memo by user input",
     img: unani,
     siteLink: "https://unanioushudhaloy.netlify.app/",
+  },
+  {
+    id: 3,
+    name: "MobileLy",
+    version: ["Web"],
+    text: "Second-hand Phone Selling E-commerce site",
+    img: mobile,
+    siteLink: "https://mobilly76.web.app/",
+  },
+  {
+    id: 4,
+    name: "Safe Edu",
+    version: ["Web"],
+    text: "Course Selling Site",
+    img: education,
+    siteLink: "https://safe-edu1.web.app/",
   },
 ];
 
@@ -90,7 +91,8 @@ const Portfolio = () => {
                   <div className="absolute bottom-2 right-1 p-3 py-3 bg-white rounded-full">
                     <div className="">
                       <a
-                        href={d.siteLink}
+                        href={d.siteLink || d.appLink}
+                        target="_blank"
                         className="bg-black inline-block p-3 rounded-full text-white hover:scale-125 duration-300"
                       >
                         <FaArrowRight />

@@ -14,9 +14,11 @@ export default function Header() {
   });
 
   /* Method that will fix header after a specific scrollable */
-  const isSticky = (e) => {
-    const header = document.querySelector(".header-section");
+  const isSticky = () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const header: any = document.querySelector(".header-section");
     const scrollTop = window.scrollY;
+    console.log(scrollTop);
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     scrollTop >= 250
       ? header.classList.add("is-sticky")
@@ -24,8 +26,8 @@ export default function Header() {
   };
 
   return (
-    <div className="header-section bg-gray-100 flex items-center justify-between border-gray-400 px-5 duration-1000">
-      <div className="block">
+    <div className="header-section bg-transparent flex items-center justify-between border-gray-400 px-5 duration-1000">
+      <a href="#home" className="block">
         <Image
           src={logo}
           className="block"
@@ -33,7 +35,7 @@ export default function Header() {
           height={100}
           width={100}
         />
-      </div>
+      </a>
       <nav>
         <section className="MOBILE-MENU flex md:hidden">
           <div

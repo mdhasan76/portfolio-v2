@@ -5,7 +5,10 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaUpwork } from "react-icons/fa6";
 const Banner = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
+    <div
+      id="home"
+      className="h-screen flex flex-col justify-center items-center"
+    >
       <div className="grid md:grid-cols-2 p-5  max-w-screen-2xl">
         <div>
           <div>
@@ -71,7 +74,7 @@ const Banner = () => {
           </li>
           <li>
             <a
-              href="pph.me/hasan76"
+              href="https://www.peopleperhour.com/freelancer/technology-programming/md-hasan_mia-mern-stack-developer-node-js-zzjqnyzx"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-black"
               target="_blank"
             >
