@@ -1,15 +1,15 @@
 import React from "react";
 import bootstrap from "../assets/skillImages/Bootstrap_logo.png";
-import css from "../assets/skillImages/css3-logo.png";
+import css from "../assets/skillImages/css3-logo.svg";
 import tailwind from "../assets/skillImages/Tailwind_CSS_Logo.png";
 import javascript from "../assets/skillImages/JavaScript-logo.png";
 import metarialUI from "../assets/skillImages/metarial-ui-logo.png";
 import react from "../assets/skillImages/React-logo.png";
 import firebase from "../assets/skillImages/firebase-logo.png";
-import mongoDB from "../assets/skillImages/mongoDB-logo.png";
+import mongoDB from "../assets/skillImages/mongodDB-logo.png";
 import node from "../assets/skillImages/node.js-logo.png";
-import html from "../assets/skillImages/html-logo.jpg";
-import express from "../assets/skillImages/express-logo.jpg";
+import html from "../assets/skillImages/html-logo.png";
+import express from "../assets/skillImages/express-logo.png";
 import postgreSQL from "../assets/skillImages/postgresql-logo.png";
 import prisma from "../assets/skillImages/prisma-2.svg";
 import typeScript from "../assets/skillImages/typescript.png";
@@ -109,7 +109,7 @@ const backEnd = [
 
 const Skills = () => {
   return (
-    <div id="skills" className="my-10 border-b-2 p-5 sm:p-10">
+    <div id="skills" className="my-10 p-5 sm:p-10">
       <h1 className="text-5xl font-bold text-center mb-20">My Skills</h1>
       <div>
         <p className="text-center text-lg font-medium">Front-End Skills</p>

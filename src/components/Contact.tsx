@@ -5,11 +5,11 @@ const Contact = () => {
   return (
     <div className="bg-gray-50">
       <div className="mx-auto  max-w-screen-2xl">
-        <div className="grid grid-cols-2 items-center py-16 px-5 ">
+        <div className="grid md:grid-cols-2 items-center py-16 px-5 ">
           <div className="">
-            <h1 className="text-4xl font-bold">Get In Touch</h1>
-            <div className="h-32 border-l-2 border-black my-10"></div>
-            <div className="grid grid-cols-2">
+            <h1 className="text-4xl font-bold mb-8 md:mb-0">Get In Touch</h1>
+            <div className="hidden md:block h-32 border-l-2 border-black my-10"></div>
+            <div className="grid md:grid-cols-2">
               <div className="text-sm mb-3">
                 <p className="font-bold uppercase">website:</p>
                 <a
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="p-5">
+          <div className="p-5 hidden md:block">
             <Image
               src={image}
               alt="hasan image with laptop"
