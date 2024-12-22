@@ -62,7 +62,7 @@ const portfolioJsonData = [
 
 const Portfolio = () => {
   return (
-    <div className="p-5 py-16 ">
+    <div id="portfolio" className="p-5 py-16 ">
       <div className=" max-w-screen-2xl mx-auto">
         <h1 className="text-4xl font-bold p-5">Recent Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

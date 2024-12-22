@@ -3,7 +3,7 @@ import React from "react";
 import image from "../assets/HasanwithLaptop.jpg";
 const Contact = () => {
   return (
-    <div className="bg-gray-50">
+    <div id="contact" className="bg-gray-50">
       <div className="mx-auto  max-w-screen-2xl">
         <div className="grid md:grid-cols-2 items-center py-16 px-5 ">
           <div className="">

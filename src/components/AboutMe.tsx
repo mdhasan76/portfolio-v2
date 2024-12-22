@@ -3,9 +3,9 @@ import React from "react";
 import profileImage from "../assets/alwaysProf-187kb.jpg";
 const AboutMe = () => {
   return (
-    <div className=" bg-gray-50 ">
+    <div id="about" className=" bg-gray-50 ">
       <div className=" max-w-screen-2xl mx-auto">
-        <div className="grid md:grid-cols-2 p-5 bg-gray-50 pb-16  ">
+        <div className="grid md:grid-cols-2 p-5 bg-gray-50 py-16  ">
           <div className="p-5  mx-auto">
             <Image
               alt="Md Hasan Mia"

@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className=" bg-gray-50 py-16 px-5">
+    <div id="experience" className=" bg-gray-50 py-16 px-5">
       <div className=" max-w-screen-2xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-x-5 items-center">
+        <div className="grid lg:grid-cols-2 gap-x-8 items-center">
           <div>
             <h1 className="text-4xl font-bold mb-8">Experience</h1>
             <div className="mt-8">
