@@ -1,14 +1,30 @@
 "use client";
 import Image from "next/image";
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { useState } from "react"; // import state
+import { useEffect, useState } from "react"; // import state
 import logo from "../assets/logo-192.png";
 
 export default function Header() {
-  const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
+  const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false  // Sticky Menu Area
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    scrollTop >= 250
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
 
   return (
-    <div className="flex items-center justify-between border-gray-400 px-5">
+    <div className="header-section bg-gray-100 flex items-center justify-between border-gray-400 px-5 duration-1000">
       <div className="block">
         <Image
           src={logo}

@@ -15,10 +15,19 @@ const Experience = () => {
                 MindQuest Studio | April 2023 - December 2024
               </p>
               <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci assumenda perspiciatis saepe odio eveniet illo.
-                Blanditiis porro quisquam nemo, et consequuntur libero dolore
-                neque nesciunt esse repellat, possimus, id aperiam.
+                I have extensive experience working on large-scale ERP software,
+                including Quest OS ERP and the backend of the Shukran Store
+                E-Commerce App. Quest OS ERP is a comprehensive system designed
+                to automate and manage modules such as sales, inventory,
+                accounts, procurement, administration, HRM, logistics,
+                workspace, and the e-commerce section. Throughout my career, I
+                have developed over 500+ APIs, integrating functionalities
+                seamlessly across systems. A notable achievement includes
+                integrating the Zetko attendance device (IoT) with Quest OS ERP
+                to streamline attendance management. Additionally, I have
+                written advanced MongoDB aggregation queries to optimize data
+                processing and analysis, further demonstrating my expertise in
+                backend development and system design.
               </p>
             </div>
             <div className="mt-8">
@@ -29,10 +38,10 @@ const Experience = () => {
                 BongoDemy | February - March 2023
               </p>
               <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci assumenda perspiciatis saepe odio eveniet illo.
-                Blanditiis porro quisquam nemo, et consequuntur libero dolore
-                neque nesciunt esse repellat, possimus, id aperiam.
+                Collaborated with teammates, learned teamwork, and the best use
+                of React.js, Tailwind. Figma to React.js conversion. Created
+                accessible, responsive, and functional user interfaces with
+                Pixel-perfect.
               </p>
             </div>
           </div>
@@ -48,10 +57,12 @@ const Experience = () => {
                 Sarail Govt. College | 2019 - 2020
               </p>
               <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci assumenda perspiciatis saepe odio eveniet illo.
-                Blanditiis porro quisquam nemo, et consequuntur libero dolore
-                neque nesciunt esse repellat, possimus, id aperiam.
+                I graduated with a GPA of 4.50, specializing in Business
+                Studies. During my studies, I was participated in social
+                activities and organized game tournaments, which enhanced my
+                teamwork, and event management skills. These experiences not
+                only complemented my academic achievements but also enriched my
+                overall development.
               </p>
             </div>
             <div className="mt-8">
@@ -62,10 +73,8 @@ const Experience = () => {
                 Sarail Annada Govt. High School | 2016 - 2018
               </p>
               <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci assumenda perspiciatis saepe odio eveniet illo.
-                Blanditiis porro quisquam nemo, et consequuntur libero dolore
-                neque nesciunt esse repellat, possimus, id aperiam.
+                I graduated with a GPA of 4.50, specializing in Business
+                Studies.
               </p>
             </div>
           </div>

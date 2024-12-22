@@ -21,19 +21,29 @@ const AboutMe = () => {
           </div>
           <div className="p-5">
             <h1 className="text-4xl font-bold">About Me</h1>
-            <p className="pt-5 text-[18px] text-justify text-gray-600 leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              dolore obcaecati vitae fuga repudiandae consequuntur deleniti?
-              Odit ut veniam sequi rem tempora mollitia quia fugit officiis
-              deleniti, nobis accusantium vel debitis optio quo atque ab est
-              repudiandae suscipit, corporis incidunt facilis harum delectus
-              dolorum. At, excepturi aliquid dolores illum quibusdam ad dolorem
-              incidunt sit. Nulla quia iusto quae, eaque ullam quidem? Veniam in
-              odit dolorem assumenda asperiores accusantium dolor explicabo
-              soluta tenetur aliquam mollitia quis sed eaque repellat officiis
-              iure iste, obcaecati possimus ea quae illo minus cum aut? Quam
-              ipsum voluptatum at maxime, obcaecati fuga dolorum natus similique
-              amet.
+            <p className="mb-2 text-justify pt-5 text-[18px] text-gray-600 leading-7">
+              <span className="">
+                I am Md Hasan Mia, a dedicated and professional Full-Stack
+                Developer with <b>2+ years</b> of experience specializing in
+                backend development using MongoDB, Node.js, and the MERN stack.
+                I have a strong focus on ERP and E-Commerce solutions, creating
+                efficient, scalable, and user-friendly applications tailored to
+                business needs.
+              </span>
+              <span className="my-1 block">
+                On the front end, I excel at building seamless and responsive
+                interfaces using React.js, while on the back end, I ensure
+                robust and well-architected systems. I am continuously expanding
+                my knowledge in web development through self-learning and
+                practical projects.
+              </span>
+              <span className="block mb-1">
+                My ultimate goal is to become a highly skilled full-stack
+                developer capable of building intuitive user interfaces and
+                managing complex back-end systems with efficiency. I am also
+                exploring new technologies like Go (Golang) And System Design to
+                further enhance my expertise and stay ahead in the field.
+              </span>
             </p>
           </div>
         </div>

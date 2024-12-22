@@ -6,6 +6,7 @@ import travel from "../assets/portfolioImages/travel.jpg";
 import education from "../assets/portfolioImages/write-8487618_1280.webp";
 import erp from "../assets/portfolioImages/erp.png";
 import shukranStore from "../assets/portfolioImages/shukran-store.jpg";
+import unani from "../assets/portfolioImages/unani.jpg";
 import { FaArrowRight } from "react-icons/fa";
 const portfolioJsonData = [
   {
@@ -55,7 +56,7 @@ const portfolioJsonData = [
     name: "Unani Oushudhaloy",
     version: ["Web"],
     text: "Make Invoice Memo by user input",
-    img: education,
+    img: unani,
     siteLink: "https://unanioushudhaloy.netlify.app/",
   },
 ];

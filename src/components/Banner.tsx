@@ -31,9 +31,12 @@ const Banner = () => {
             <button className="bg-black text-white font-thin mr-3">
               Talk with me
             </button>
-            <button className="hover:bg-black duration-300 hover:text-white font-medium">
+            <a
+              href="#portfolio"
+              className="hover:bg-black duration-300 hover:text-white font-medium py-3 px-3 rounded-xl border-[1px] border-gray-300 inline-block"
+            >
               See my work
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -43,6 +46,7 @@ const Banner = () => {
             <a
               href="https://www.linkedin.com/in/md-hasan-miah/"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-[#0072b1]"
+              target="_blank"
             >
               <FaLinkedin className="text-3xl  hover:scale-105 duration-300" />
             </a>
@@ -51,6 +55,7 @@ const Banner = () => {
             <a
               href="https://github.com/mdhasan76"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-black"
+              target="_blank"
             >
               <FaGithub className="text-3xl  hover:scale-105 duration-300" />
             </a>
@@ -59,6 +64,7 @@ const Banner = () => {
             <a
               href="https://www.upwork.com/freelancers/~01ea904c428dfc84b9?mp_source=share"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-black"
+              target="_blank"
             >
               <FaUpwork className="text-3xl  hover:scale-105 duration-300" />
             </a>
@@ -67,6 +73,7 @@ const Banner = () => {
             <a
               href="pph.me/hasan76"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-black"
+              target="_blank"
             >
               <div className="relative z-10 [&>*]:duration-300 hover:[&>left-eye]:bg-orange-600 [&>span]:hover:bg-orange-600  hover:scale-105 duration-300">
                 <div className="h-6 w-6 hover:border-orange-600  border-black border-2 block rounded-full"></div>
@@ -79,6 +86,7 @@ const Banner = () => {
             <a
               href="https://www.facebook.com/DeveloperMdHasan"
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-blue-600"
+              target="_blank"
             >
               <FaFacebook className="text-3xl hover:scale-105 duration-300" />
             </a>
