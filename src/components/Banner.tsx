@@ -1,16 +1,18 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import profileImage from "../assets/logo-image-560.png";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
-import { FaGithub, FaUpwork } from "react-icons/fa6";
+import { FaGithub, FaUpwork, FaWhatsapp } from "react-icons/fa6";
+import TypewriterComponent from "typewriter-effect";
 const Banner = () => {
   return (
     <div
       id="home"
       className="h-screen flex flex-col justify-center items-center"
     >
-      <div className="grid md:grid-cols-2 p-5  max-w-screen-2xl">
-        <div>
+      <div className="grid lg:grid-cols-2 p-5  max-w-screen-2xl gap-x-5">
+        <div className="md:min-w-[600px]">
           <div>
             <Image
               alt="Hasan Image"
@@ -23,11 +25,27 @@ const Banner = () => {
         </div>
         <div>
           <div>
-            <p className="text-lg font-medium">
-              A Full Stack Developer with 2+ years of professional experience.
-            </p>
+            <div className="text-lg font-medium w-full">
+              A{" "}
+              <span className="inline-block max-w-full text-[#ff014f]">
+                <TypewriterComponent
+                  options={{
+                    strings: [
+                      "MERN Stack Developer",
+                      "Full Stack Developer",
+                      "Back-End Developer",
+                      "Node.js Developer",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>{" "}
+              with over 2 years of experience in building robust web
+              applications, APIs, and scalable backend systems.
+            </div>
             <p className="text-sm font-thin mt-3">
-              Passionate creating great experiences for Digital Product
+              Passionate creating great experiences for Web Application
             </p>
           </div>
           <div className="mt-5 [&>button]:py-3 [&>button]:px-3 [&>button]:rounded-xl [&>button]:border-[1px] [&>button]:border-gray-300 [&>button]:inline-block">
@@ -92,6 +110,15 @@ const Banner = () => {
               target="_blank"
             >
               <FaFacebook className="text-3xl hover:scale-105 duration-300" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="tel:+8801720293476"
+              className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-[#075E54]"
+              target="_blank"
+            >
+              <FaWhatsapp className="text-3xl hover:scale-105 duration-300" />
             </a>
           </li>
         </ul>
