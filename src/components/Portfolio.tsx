@@ -13,7 +13,13 @@ const portfolioJsonData = [
     id: 1,
     name: "Quest OS (ERP application)",
     text: "An all in one ERP solution",
-    version: ["App", "Web"],
+    version: [
+      {
+        type: "App",
+        url: "https://play.google.com/store/apps/details?id=com.mindquest.shukran_store",
+      },
+      { type: "Web", url: "https://shukran-os-v1.web.app/" },
+    ],
     img: erp,
     appLink:
       "https://play.google.com/store/apps/details?id=com.mindquest.shukran_store",
@@ -22,7 +28,12 @@ const portfolioJsonData = [
   {
     id: 2,
     name: "Shukran Store",
-    version: ["App"],
+    version: [
+      {
+        type: "App",
+        url: "https://play.google.com/store/apps/details?id=com.mindquest.shukran_store",
+      },
+    ],
     text: "A Grocery and Rice Selling E-commerce App",
     img: shukranStore,
     appLink:
@@ -31,7 +42,7 @@ const portfolioJsonData = [
   {
     id: 5,
     name: "Crazy Travel",
-    version: ["Web"],
+    version: [{ type: "Web", url: "https://crazy-travel.web.app/" }],
     text: "Travel Service selling site",
     img: travel,
     siteLink: "https://crazy-travel.web.app/",
@@ -39,7 +50,7 @@ const portfolioJsonData = [
   {
     id: 6,
     name: "Unani Oushudhaloy",
-    version: ["Web"],
+    version: [{ type: "Web", url: "https://unanioushudhaloy.netlify.app/" }],
     text: "Make Invoice Memo by user input",
     img: unani,
     siteLink: "https://unanioushudhaloy.netlify.app/",
@@ -47,7 +58,7 @@ const portfolioJsonData = [
   {
     id: 3,
     name: "MobileLy",
-    version: ["Web"],
+    version: [{ url: "https://mobilly76.web.app/", type: "Web" }],
     text: "Second-hand Phone Selling E-commerce site",
     img: mobile,
     siteLink: "https://mobilly76.web.app/",
@@ -55,7 +66,7 @@ const portfolioJsonData = [
   {
     id: 4,
     name: "Safe Edu",
-    version: ["Web"],
+    version: [{ type: "Web", url: "https://safe-edu1.web.app/" }],
     text: "Course Selling Site",
     img: education,
     siteLink: "https://safe-edu1.web.app/",
@@ -80,12 +91,14 @@ const Portfolio = () => {
                   />
                   <div className="bg-white px-3 py-2 absolute top-2 right-0 rounded-full ">
                     {d.version.map((v: any, i: number) => (
-                      <p
+                      <a
+                        href={v.url}
                         key={i}
                         className="bg-gray-50 inline-block mr-2 px-5 py-1 rounded-full"
+                        target="_blank"
                       >
-                        {v}
-                      </p>
+                        {v.type}
+                      </a>
                     ))}
                   </div>
                   <div className="absolute bottom-2 right-1 p-3 py-3 bg-white rounded-full">

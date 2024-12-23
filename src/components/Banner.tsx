@@ -43,7 +43,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="fixed right-5 top-1/4 bg-slate-50 p-3 rounded-full">
+      <div className="fixed right-5 top-1/4 bg-slate-50 p-3 rounded-full z-10">
         <ul className="flex flex-col items-center justify-center mt-5 gap-y-5 [&>li>a]:hover:text-4xl">
           <li>
             <a
