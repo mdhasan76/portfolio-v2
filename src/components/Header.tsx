@@ -2,7 +2,7 @@
 import Image from "next/image";
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { useEffect, useState } from "react"; // import state
-import logo from "../assets/logo-192.png";
+import logo from "../../public/assets/logo-192.png";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false  // Sticky Menu Area

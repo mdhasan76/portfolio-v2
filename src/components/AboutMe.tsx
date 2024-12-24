@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import profileImage from "../assets/alwaysProf-187kb.jpg";
+import profileImage from "../../public/assets/alwaysProf-187kb.jpg";
 const AboutMe = () => {
   return (
     <div id="about" className=" bg-gray-50 ">

@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import profileImage from "../assets/logo-image-560.png";
+// import profileImage from "../../public/assets/logo-image-560.png";
+import profileImage from "../../public/assets/logo-image-560.png";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaUpwork, FaWhatsapp } from "react-icons/fa6";
 import TypewriterComponent from "typewriter-effect";

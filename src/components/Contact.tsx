@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image from "../assets/HasanwithLaptop.jpg";
+import image from "../../public/assets/HasanwithLaptop.jpg";
 const Contact = () => {
   return (
     <div id="contact" className="bg-gray-50">

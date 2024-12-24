@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Image from "next/image";
 import React from "react";
-import mobile from "../assets/portfolioImages/mobile.jpg";
-import travel from "../assets/portfolioImages/travel.jpg";
-import education from "../assets/portfolioImages/write-8487618_1280.webp";
-import erp from "../assets/portfolioImages/erp.png";
-import shukranStore from "../assets/portfolioImages/shukran-store.jpg";
-import unani from "../assets/portfolioImages/unani.jpg";
+import mobile from "../../public/assets/portfolioImages/mobile.jpg";
+import travel from "../../public/assets/portfolioImages/travel.jpg";
+import education from "../../public/assets/portfolioImages/write-8487618_1280.webp";
+import erp from "../../public/assets/portfolioImages/erp.png";
+import shukranStore from "../../public/assets/portfolioImages/shukran-store.jpg";
+import unani from "../../public/assets/portfolioImages/unani.jpg";
 import { FaArrowRight } from "react-icons/fa";
 const portfolioJsonData = [
   {
