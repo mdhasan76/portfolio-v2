@@ -60,7 +60,7 @@ const frontEnd = [
   },
   {
     img: metarialUI,
-    name: "Material UI",
+    name: "MUI",
   },
 ];
 
@@ -116,16 +116,18 @@ const Skills = () => {
         <div className="flex flex-wrap justify-center my-5">
           {frontEnd.map((data, i) => (
             <div key={i}>
-              <div className="bg-white w-28 p-3 mb-2 rounded-md mr-2">
-                <span className="">
+              <div className="bg-white dark:bg-gray-900 w-28 p-3 mb-2 rounded-md mr-2">
+                <span className="max-w-28 max-h-28">
                   {" "}
                   <Image
                     src={data.img}
                     className="w-full h-16 mx-auto"
-                    alt=""
+                    alt="skills image"
+                    height={100}
+                    width={100}
                   />
                 </span>
-                <p className="pt-2 font-medium text-center">{data.name}</p>
+                <p className="pt-2 font-medium text-center ">{data.name}</p>
               </div>
             </div>
           ))}
@@ -136,13 +138,15 @@ const Skills = () => {
         <div className="flex flex-wrap justify-center my-5">
           {backEnd.map((data, i) => (
             <div key={i}>
-              <div className="bg-white w-28 mb-2 p-3 rounded-md mr-2">
+              <div className="bg-white dark:bg-gray-900 w-28 mb-2 p-3 rounded-md mr-2">
                 <span className="">
                   {" "}
                   <Image
                     src={data.img}
                     className="w-full h-16 mx-auto"
-                    alt=""
+                    alt="skills image"
+                    height={100}
+                    width={100}
                   />
                 </span>
                 <p className="pt-2 font-medium text-center">{data.name}</p>

@@ -3,9 +3,9 @@ import React from "react";
 import profileImage from "../../public/assets/alwaysProf-187kb.jpg";
 const AboutMe = () => {
   return (
-    <div id="about" className=" bg-gray-50 ">
+    <div id="about" className="dark:bg-[#141414] bg-gray-50">
       <div className=" max-w-screen-2xl mx-auto">
-        <div className="grid md:grid-cols-2 p-5 items-center bg-gray-50 py-16  ">
+        <div className="grid md:grid-cols-2 p-5 items-center bg-gray-50 dark:bg-[#141414] py-16  ">
           <div className="p-5  mx-auto">
             <Image
               alt="Md Hasan Mia"
@@ -20,8 +20,8 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="p-5">
-            <h1 className="text-4xl font-bold">About Me</h1>
-            <p className="mb-2 text-justify pt-5 text-[18px] text-gray-600 leading-7">
+            <h1 className="text-4xl font-bold dark:text-white">About Me</h1>
+            <p className="mb-2 text-justify pt-5 text-[18px] text-gray-600 leading-7 dark:text-gray-200 ">
               <span className="">
                 I am Md Hasan Mia, a dedicated and professional Full-Stack
                 Developer with <b>2+ years</b> of experience specializing in

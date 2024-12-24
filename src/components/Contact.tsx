@@ -3,12 +3,12 @@ import React from "react";
 import image from "../../public/assets/HasanwithLaptop.jpg";
 const Contact = () => {
   return (
-    <div id="contact" className="bg-gray-50">
+    <div id="contact" className="bg-gray-50 dark:bg-[#141414]">
       <div className="mx-auto  max-w-screen-2xl">
         <div className="grid md:grid-cols-2 items-center py-16 px-5 ">
           <div className="">
             <h1 className="text-4xl font-bold mb-8 md:mb-0">Get In Touch</h1>
-            <div className="hidden md:block h-32 border-l-2 border-black my-10"></div>
+            <div className="hidden md:block h-32 border-l-2 border-black dark:border-gray-200 my-10"></div>
             <div className="grid md:grid-cols-2">
               <div className="text-sm mb-3">
                 <p className="font-bold uppercase">website:</p>

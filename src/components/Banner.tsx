@@ -50,19 +50,19 @@ const Banner = () => {
             </p>
           </div>
           <div className="mt-5 [&>button]:py-3 [&>button]:px-3 [&>button]:rounded-xl [&>button]:border-[1px] [&>button]:border-gray-300 [&>button]:inline-block">
-            <button className="bg-black text-white font-thin mr-3">
+            <button className="dark:bg-white dark:text-black bg-black text-white font-thin mr-3">
               Talk with me
             </button>
             <a
               href="#portfolio"
-              className="hover:bg-black duration-300 hover:text-white font-medium py-3 px-3 rounded-xl border-[1px] border-gray-300 inline-block"
+              className="hover:bg-black duration-300 hover:text-white font-medium py-3 px-3 rounded-xl border-[1px] border-gray-300 inline-block dark:hover:bg-white dark:hover:text-black"
             >
               See my work
             </a>
           </div>
         </div>
       </div>
-      <div className="fixed right-5 top-1/4 bg-slate-50 p-3 rounded-full z-10">
+      <div className="fixed right-5 top-1/4 bg-slate-50 dark:bg-[#141414] p-3 rounded-full z-10">
         <ul className="flex flex-col items-center justify-center mt-5 gap-y-5 [&>li>a]:hover:text-4xl">
           <li>
             <a
@@ -97,7 +97,7 @@ const Banner = () => {
               className="text-gray-500 dark:hover:text-white dark:text-gray-400 duration-300 hover:text-black"
               target="_blank"
             >
-              <div className="relative z-10 [&>*]:duration-300 hover:[&>left-eye]:bg-orange-600 [&>span]:hover:bg-orange-600  hover:scale-105 duration-300">
+              <div className="relative z-10 [&>*]:duration-300 hover:[&>left-eye]:bg-orange-600 [&>span]:hover:bg-orange-600  hover:scale-105 duration-300 bg-white rounded-full">
                 <div className="h-6 w-6 hover:border-orange-600  border-black border-2 block rounded-full"></div>
                 <span className="left-eye h-1 w-1 rounded-full bg-black top-2 left-1.5 absolute"></span>
                 <span className="right-eye h-1 w-1 rounded-full bg-black right-1.5 top-2 absolute"></span>

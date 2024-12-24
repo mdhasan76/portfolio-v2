@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="experience" className=" bg-gray-50 py-16 px-5">
+    <div id="experience" className=" bg-gray-50 dark:bg-[#141414] py-16 px-5">
       <div className=" max-w-screen-2xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-x-8 items-center">
           <div>
@@ -14,7 +14,7 @@ const Experience = () => {
               <p className="mb-3 font-thin tracking-widest italic">
                 MindQuest Studio | April 2023 - December 2024
               </p>
-              <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
+              <p className="font-medium text-justify text-[18px] text-gray-600 dark:text-gray-200 leading-7">
                 I have extensive experience working on large-scale ERP software,
                 including Quest OS ERP and the backend of the Shukran Store
                 E-Commerce App. Quest OS ERP is a comprehensive system designed
@@ -37,7 +37,7 @@ const Experience = () => {
               <p className="mb-3 font-thin tracking-widest italic">
                 BongoDemy | February - March 2023
               </p>
-              <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
+              <p className="font-medium text-justify text-[18px] text-gray-600 dark:text-gray-200 leading-7">
                 Collaborated with teammates, learned teamwork, and the best use
                 of React.js, Tailwind. Figma to React.js conversion. Created
                 accessible, responsive, and functional user interfaces with
@@ -56,7 +56,7 @@ const Experience = () => {
               <p className="mb-3 font-thin tracking-widest italic">
                 Sarail Govt. College | 2019 - 2020
               </p>
-              <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
+              <p className="font-medium text-justify text-[18px] text-gray-600 dark:text-gray-200 leading-7">
                 I graduated with a GPA of 4.50, specializing in Business
                 Studies. During my studies, I was participated in social
                 activities and organized game tournaments, which enhanced my
@@ -72,7 +72,7 @@ const Experience = () => {
               <p className="mb-3 font-thin tracking-widest italic">
                 Sarail Annada Govt. High School | 2016 - 2018
               </p>
-              <p className="font-medium text-justify text-[18px] text-gray-600 leading-7">
+              <p className="font-medium text-justify text-[18px] text-gray-600 dark:text-gray-200 leading-7">
                 I graduated with a GPA of 4.50, specializing in Business
                 Studies.
               </p>

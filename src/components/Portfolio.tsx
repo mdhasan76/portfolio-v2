@@ -89,24 +89,24 @@ const Portfolio = () => {
                     src={d?.img}
                     className="rounded-xl hover:scale-105 duration-300"
                   />
-                  <div className="bg-white px-3 py-2 absolute top-2 right-0 rounded-full ">
+                  <div className="bg-white px-3 py-2 absolute top-2 right-0 rounded-full  text-center">
                     {d.version.map((v: any, i: number) => (
                       <a
                         href={v.url}
                         key={i}
-                        className="bg-gray-50 inline-block mr-2 px-5 py-1 rounded-full"
+                        className="bg-gray-50 dark:bg-[#141414] text-center inline-block mr-2 px-5 py-1 rounded-full"
                         target="_blank"
                       >
                         {v.type}
                       </a>
                     ))}
                   </div>
-                  <div className="absolute bottom-2 right-1 p-3 py-3 bg-white rounded-full">
+                  <div className="absolute bottom-5 right-7  rounded-full">
                     <div className="">
                       <a
                         href={d.siteLink || d.appLink}
                         target="_blank"
-                        className="bg-black inline-block p-3 rounded-full text-white hover:scale-125 duration-300"
+                        className="bg-black dark:bg-white inline-block p-3 rounded-full dark:text-black text-white hover:scale-125 duration-300"
                       >
                         <FaArrowRight />
                       </a>

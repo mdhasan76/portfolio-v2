@@ -18,7 +18,7 @@ export default function Header() {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const header: any = document.querySelector(".header-section");
     const scrollTop = window.scrollY;
-    console.log(scrollTop);
+    // console.log(scrollTop);
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     scrollTop >= 250
       ? header.classList.add("is-sticky")
@@ -171,8 +171,8 @@ export default function Header() {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-      }
-    `}</style>
+        }
+      `}</style>
     </div>
   );
 }
